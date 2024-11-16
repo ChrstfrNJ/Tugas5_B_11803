@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import os
 
-model_path = r"C:\Users\H P\OneDrive\Documents\mldl\Tugas5_B_11803\best_model_tf.h5"
+model_path = 'best_model_tf.h5'
 
 if os.path.exists(model_path):
     try:
